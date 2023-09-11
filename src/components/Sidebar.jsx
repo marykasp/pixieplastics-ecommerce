@@ -10,7 +10,7 @@ import { useContext } from 'react';
 
 const Sidebar = () => {
   const { isOpen, handleClose } = useContext(SidebarContext);
-  const { cart, clearCart } = useContext(CartContext);
+  const { cart, clearCart, itemAmount, totalPrice } = useContext(CartContext);
 
   return (
     <div
@@ -19,7 +19,9 @@ const Sidebar = () => {
       } w-full h-full bg-white fixed top-0 shadow-2xl md:w-[35vw] xl:max-w-[25vw] transition-all duration-300 z-20 px-4 lg:px-[35px]`}
     >
       <div className="flex items-center justify-between py-6 border-b">
-        <div className="uppercase text-md font-semibold">Shopping Bag (0)</div>
+        <div className="uppercase text-md font-semibold">
+          Shopping Bag ({itemAmount})
+        </div>
         <div
           onClick={handleClose}
           className="cursor-pointer flex items-center justify-center w-8 h-8"
@@ -27,7 +29,7 @@ const Sidebar = () => {
           <IoMdArrowForward className="text-2xl" />
         </div>
       </div>
-      <div>
+      <div className="flex flex-col gap-y-2 h-[520px] lg:h-[640px] overflow-y-auto overflow-x-hidden border-b">
         {cart.map((item) => {
           return <CartItem key={item.id} item={item} />;
         })}
@@ -36,7 +38,8 @@ const Sidebar = () => {
         <div className="flex w-full justify-between items-center">
           {/* total price */}
           <div className="uppercase font-semibold">
-            <span className="mr-2 text-gray-600">Total:</span> $ 1000
+            <span className="mr-2 text-gray-600">Total:</span> ${' '}
+            {parseFloat(totalPrice).toFixed(2)}
           </div>
           {/* clear cart */}
           <div
