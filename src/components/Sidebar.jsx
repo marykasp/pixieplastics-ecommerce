@@ -10,7 +10,7 @@ import { useContext } from 'react';
 
 const Sidebar = () => {
   const { isOpen, handleClose } = useContext(SidebarContext);
-  const { cart } = useContext(CartContext);
+  const { cart, clearCart } = useContext(CartContext);
 
   return (
     <div
@@ -32,7 +32,21 @@ const Sidebar = () => {
           return <CartItem key={item.id} item={item} />;
         })}
       </div>
-      <div>sidebar bottom</div>
+      <div className="flex flex-col gap-y-3 py-4 px-4 mt-4">
+        <div className="flex w-full justify-between items-center">
+          {/* total price */}
+          <div className="uppercase font-semibold">
+            <span className="mr-2 text-gray-600">Total:</span> $ 1000
+          </div>
+          {/* clear cart */}
+          <div
+            onClick={clearCart}
+            className="cursor-pointer py-4 bg-red-500 text-white w-12 h-12 flex items-center justify-center"
+          >
+            <FiTrash2 />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
