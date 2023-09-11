@@ -1,7 +1,7 @@
 import React, { createContext, useState, useEffect } from 'react';
 
 // create context
-const ProductContext = createContext();
+export const ProductContext = createContext();
 
 const ProductProvider = ({ children }) => {
   // products state
@@ -12,7 +12,7 @@ const ProductProvider = ({ children }) => {
     const fetchProducts = async () => {
       const response = await fetch('data.json');
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
       setProducts(data);
     };
     fetchProducts();
