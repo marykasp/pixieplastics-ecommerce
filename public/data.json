@@ -4,8 +4,7 @@
     "name": "Grinny Gremlin",
     "description": "Grinny Gremlin is the mischievous leader of the Giggly Gremlins, known for their adorable antics. With a perpetual grin and twinkling eyes, Grinny is always ready for fun.",
     "price": 19.99,
-    "category": "Gremlins",
-    "image": "/assets/toy-1.png"
+    "category": "Gremlins"
   },
   {
     "id": 2,

@@ -19,9 +19,11 @@ export default {
     },
     extend: {
       colors: {
-        primary: '#222222',
-        tertiary: '#F99C80',
-        secondary: '#F5E6E0',
+        text: '#222222',
+        primary: '#F5E6E0',
+        secondary: '#F99C80',
+        tertiary: '#A86B5C',
+        quatenary: '#C8A199',
       },
       backgroundImage: {
         hero: "url('./img/vinyl-toystore.png')",
