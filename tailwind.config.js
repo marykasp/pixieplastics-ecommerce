@@ -20,10 +20,11 @@ export default {
     extend: {
       colors: {
         primary: '#222222',
+        tertiary: '#F99C80',
         secondary: '#F5E6E0',
       },
       backgroundImage: {
-        hero: "url('./img/bg_hero.svg')",
+        hero: "url('./img/vinyl-toystore.png')",
       },
     },
   },
