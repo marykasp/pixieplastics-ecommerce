@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "Grinny Gremlin",
+    "description": "Grinny Gremlin is the mischievous leader of the Giggly Gremlins, known for their adorable antics. With a perpetual grin and twinkling eyes, Grinny is always ready for fun.",
+    "price": 19.99,
+    "category": "Gremlins",
+    "image": "/assets/toy-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Chuckles Chomper",
+    "description": "Chuckles Chomper is a cuddly but toothy Gremlin who loves to nibble on snacks and tell silly jokes. Collect Chuckles and hear giggles all day long!",
+    "price": 14.99,
+    "category": "Gremlins"
+  },
+  {
+    "id": 3,
+    "name": "Giddy Gizmo",
+    "description": "Giddy Gizmo is a tech-savvy Gremlin, always tinkering with gadgets and gizmos. This vinyl toy is perfect for little inventors and aspiring scientists.",
+    "price": 24.99,
+    "category": "Gremlins"
+  },
+  {
+    "id": 4,
+    "name": "Wobble Whimsy",
+    "description": "Wobble Whimsy is the most unpredictable Gremlin in the bunch, always wobbling and tumbling with laughter. This vinyl toy is a barrel of laughs.",
+    "price": 17.99,
+    "category": "Gremlins"
+  },
+  {
+    "id": 5,
+    "name": "Melody Mia",
+    "description": "Melody Mia is the music-loving vinyl toy girl with her headphones always on, ready to groove to the beats and share her passion for tunes with everyone.",
+    "price": 21.99,
+    "category": "Singing Sensations"
+  },
+  {
+    "id": 6,
+    "name": "Harmony Harper",
+    "description": "Harmony Harper is a vinyl toy sensation with her harmonious voice and love for singing. She's the perfect companion for those who appreciate the beauty of music.",
+    "price": 18.99,
+    "category": "Singing Sensations"
+  },
+  {
+    "id": 7,
+    "name": "DJ Daisy",
+    "description": "DJ Daisy is the vinyl toy girl who's a master at mixing and spinning tunes. With her cool headphones and turntable, she's ready to get the party started.",
+    "price": 27.99,
+    "category": "Singing Sensations"
+  },
+  {
+    "id": 8,
+    "name": "Rhythmic Rosie",
+    "description": "Rhythmic Rosie is a vinyl toy girl with a knack for creating catchy rhythms. Her drumsticks are always at the ready for an impromptu jam session.",
+    "price": 16.99,
+    "category": "Singing Sensations"
+  },
+  {
+    "id": 9,
+    "name": "Mystic Munchkin",
+    "description": "Mystic Munchkin is a plump and adorable little monster who resides in a hidden cave. It loves to snack on colorful mushrooms and tell stories to all who visit.",
+    "price": 15.99,
+    "category": "Enchanted Beings"
+  },
+  {
+    "id": 10,
+    "name": "Dreamy Dragonling",
+    "description": "Dreamy Dragonling is a tiny dragon with pastel-colored scales, known for bringing sweet dreams to children and collecting shiny trinkets.",
+    "price": 19.99,
+    "category": "Enchanted Beings"
+  },
+  {
+    "id": 11,
+    "name": "Sparkle Sprite",
+    "description": "Sparkle Sprite is a tiny, shimmering creature from a magical forest, known for spreading joy with its sparkling dust and enchanting presence.",
+    "price": 18.99,
+    "category": "Enchanted Beings"
+  },
+  {
+    "id": 12,
+    "name": "Giggly Gargoyle",
+    "description": "Giggly Gargoyle is a playful guardian of ancient castles, with a love for pranks and riddles. Collect this vinyl toy for a touch of whimsy and protection.",
+    "price": 21.99,
+    "category": "Enchanted Beings"
+  }
+]
