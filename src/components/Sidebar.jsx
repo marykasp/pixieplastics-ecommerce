@@ -34,7 +34,7 @@ const Sidebar = () => {
           return <CartItem key={item.id} item={item} />;
         })}
       </div>
-      <div className="flex flex-col gap-y-3 py-4 px-4 mt-4">
+      <div className="flex flex-col gap-y-3 py-4  mt-4">
         <div className="flex w-full justify-between items-center">
           {/* total price */}
           <div className="uppercase font-semibold">
@@ -49,6 +49,19 @@ const Sidebar = () => {
             <FiTrash2 />
           </div>
         </div>
+        {/* buttons */}
+        <Link
+          to={'/'}
+          className="bg-gray-200 flex p-4 justify-center items-center text-text w-full font-medium"
+        >
+          View Cart
+        </Link>
+        <Link
+          to={'/'}
+          className="bg-text flex p-4 justify-center items-center text-white w-full font-medium"
+        >
+          Checkout
+        </Link>
       </div>
     </div>
   );
