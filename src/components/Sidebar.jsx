@@ -10,7 +10,7 @@ import { useContext } from 'react';
 
 const Sidebar = () => {
   const { isOpen, handleClose } = useContext(SidebarContext);
-  const { cart, addToCart } = useContext(CartContext);
+  const { cart } = useContext(CartContext);
 
   return (
     <div
@@ -32,6 +32,7 @@ const Sidebar = () => {
           return <CartItem key={item.id} item={item} />;
         })}
       </div>
+      <div>sidebar bottom</div>
     </div>
   );
 };
